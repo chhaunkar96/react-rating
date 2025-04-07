@@ -16,6 +16,7 @@ const vitestOptions = {
 
 export default defineConfig(({ command }) => ({
    ...vitestOptions,
+   experimental: {},
    define: {
       __DEV__: command !== 'build',
    },
