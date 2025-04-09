@@ -36,7 +36,7 @@ function Ir({ itemShapes: t2, testId: n2, itemStrokeWidth: c2 = 0, orientation: 
       var _a;
       (_a = C2.current) == null ? void 0 : _a.disconnect();
     };
-  }, [x2, A2]), r("svg", { "aria-hidden": "true", className: w, xmlns: "http://www.w3.org/2000/svg", viewBox: "-0.5 -0.5 28 28", preserveAspectRatio: "xMidYMid meet", ...c2 > 0 ? { strokeWidth: c2 } : {}, ...n2, children: [u2 && e("defs", { children: r("linearGradient", { id: m2, ...l2 === ur ? { gradientTransform: "rotate(90)" } : {}, children: [e("stop", { className: B, offset: "50%" }), e("stop", { className: k, offset: "50%" })] }) }), e("g", { ref: p2, shapeRendering: "geometricPrecision", ...function() {
+  }, [x2, A2]), r("svg", { "aria-hidden": "true", className: w, xmlns: "http://www.w3.org/2000/svg", viewBox: "-0.5 -0.5 20 20", preserveAspectRatio: "xMidYMid meet", ...c2 > 0 ? { strokeWidth: c2 } : {}, ...n2, children: [u2 && e("defs", { children: r("linearGradient", { id: m2, ...l2 === ur ? { gradientTransform: "rotate(90)" } : {}, children: [e("stop", { className: B, offset: "50%" }), e("stop", { className: k, offset: "50%" })] }) }), e("g", { ref: p2, shapeRendering: "geometricPrecision", ...function() {
     if (y2) {
       const r2 = `translate(${y2 == null ? void 0 : y2.translateData})`;
       return "translate(0 0)" === r2 ? {} : { transform: r2 };
