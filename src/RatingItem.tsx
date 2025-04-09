@@ -137,7 +137,7 @@ export function RatingItem({
          aria-hidden="true"
          className={RatingClasses.SVG}
          xmlns="http://www.w3.org/2000/svg"
-         viewBox={'-0.5 -0.5 28 28'}
+         viewBox={'-0.5 -0.5 20 20'}
          preserveAspectRatio="xMidYMid meet"
          {...getStrokeAttribute()}
          {...testId}
